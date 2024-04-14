@@ -1,1 +1,144 @@
-{"trial_id": "19", "hyperparameters": {"space": [{"class_name": "Int", "config": {"name": "units_layer_1", "default": null, "conditions": [], "min_value": 256, "max_value": 1024, "step": 256, "sampling": "linear"}}, {"class_name": "Float", "config": {"name": "l2_layer_1", "default": 0.0001, "conditions": [], "min_value": 0.0001, "max_value": 0.01, "step": null, "sampling": "log"}}, {"class_name": "Float", "config": {"name": "dropout_layer_1", "default": 0.1, "conditions": [], "min_value": 0.1, "max_value": 0.5, "step": 0.1, "sampling": "linear"}}, {"class_name": "Int", "config": {"name": "units_layer_2", "default": null, "conditions": [], "min_value": 128, "max_value": 512, "step": 128, "sampling": "linear"}}, {"class_name": "Float", "config": {"name": "l2_layer_2", "default": 0.0001, "conditions": [], "min_value": 0.0001, "max_value": 0.01, "step": null, "sampling": "log"}}, {"class_name": "Float", "config": {"name": "dropout_layer_2", "default": 0.1, "conditions": [], "min_value": 0.1, "max_value": 0.5, "step": 0.1, "sampling": "linear"}}, {"class_name": "Float", "config": {"name": "learning_rate", "default": 1e-05, "conditions": [], "min_value": 1e-05, "max_value": 0.01, "step": null, "sampling": "log"}}], "values": {"units_layer_1": 512, "l2_layer_1": 0.002513168195838526, "dropout_layer_1": 0.2, "units_layer_2": 128, "l2_layer_2": 0.0007040174447142196, "dropout_layer_2": 0.2, "learning_rate": 1.6385471070412922e-05}}, "metrics": {"metrics": {"accuracy": {"direction": "max", "observations": [{"value": [0.9383229613304138], "step": 490}]}, "loss": {"direction": "min", "observations": [{"value": [1.091897964477539], "step": 490}]}, "val_accuracy": {"direction": "max", "observations": [{"value": [0.8317152261734009], "step": 490}]}, "val_loss": {"direction": "min", "observations": [{"value": [1.490217924118042], "step": 490}]}}}, "score": 0.8317152261734009, "best_step": 490, "status": "COMPLETED", "message": null}
+{
+    "trial_id": "19",
+    "hyperparameters": {
+      "space": [
+        {
+          "class_name": "Int",
+          "config": {
+            "name": "units_layer_1",
+            "default": null,
+            "conditions": [],
+            "min_value": 256,
+            "max_value": 1024,
+            "step": 256,
+            "sampling": "linear"
+          }
+        },
+        {
+          "class_name": "Float",
+          "config": {
+            "name": "l2_layer_1",
+            "default": 0.0001,
+            "conditions": [],
+            "min_value": 0.0001,
+            "max_value": 0.01,
+            "step": null,
+            "sampling": "log"
+          }
+        },
+        {
+          "class_name": "Float",
+          "config": {
+            "name": "dropout_layer_1",
+            "default": 0.1,
+            "conditions": [],
+            "min_value": 0.1,
+            "max_value": 0.5,
+            "step": 0.1,
+            "sampling": "linear"
+          }
+        },
+        {
+          "class_name": "Int",
+          "config": {
+            "name": "units_layer_2",
+            "default": null,
+            "conditions": [],
+            "min_value": 128,
+            "max_value": 512,
+            "step": 128,
+            "sampling": "linear"
+          }
+        },
+        {
+          "class_name": "Float",
+          "config": {
+            "name": "l2_layer_2",
+            "default": 0.0001,
+            "conditions": [],
+            "min_value": 0.0001,
+            "max_value": 0.01,
+            "step": null,
+            "sampling": "log"
+          }
+        },
+        {
+          "class_name": "Float",
+          "config": {
+            "name": "dropout_layer_2",
+            "default": 0.1,
+            "conditions": [],
+            "min_value": 0.1,
+            "max_value": 0.5,
+            "step": 0.1,
+            "sampling": "linear"
+          }
+        },
+        {
+          "class_name": "Float",
+          "config": {
+            "name": "learning_rate",
+            "default": 1e-05,
+            "conditions": [],
+            "min_value": 1e-05,
+            "max_value": 0.01,
+            "step": null,
+            "sampling": "log"
+          }
+        }
+      ],
+      "values": {
+        "units_layer_1": 512,
+        "l2_layer_1": 0.002513168195838526,
+        "dropout_layer_1": 0.2,
+        "units_layer_2": 128,
+        "l2_layer_2": 0.0007040174447142196,
+        "dropout_layer_2": 0.2,
+        "learning_rate": 1.6385471070412922e-05
+      }
+    },
+    "metrics": {
+      "metrics": {
+        "accuracy": {
+          "direction": "max",
+          "observations": [
+            {
+              "value": [0.9383229613304138],
+              "step": 490
+            }
+          ]
+        },
+        "loss": {
+          "direction": "min",
+          "observations": [
+            {
+              "value": [1.091897964477539],
+              "step": 490
+            }
+          ]
+        },
+        "val_accuracy": {
+          "direction": "max",
+          "observations": [
+            {
+              "value": [0.8317152261734009],
+              "step": 490
+            }
+          ]
+        },
+        "val_loss": {
+          "direction": "min",
+          "observations": [
+            {
+              "value": [1.490217924118042],
+              "step": 490
+            }
+          ]
+        }
+      }
+    },
+    "score": 0.8317152261734009,
+    "best_step": 490,
+    "status": "COMPLETED",
+    "message": null
+  }
