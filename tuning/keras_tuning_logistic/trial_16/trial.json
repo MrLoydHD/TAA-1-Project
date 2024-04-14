@@ -1,1 +1,127 @@
-{"trial_id": "16", "hyperparameters": {"space": [{"class_name": "Float", "config": {"name": "l2_regularization", "default": 1e-05, "conditions": [], "min_value": 1e-05, "max_value": 0.01, "step": null, "sampling": "log"}}, {"class_name": "Choice", "config": {"name": "units", "default": 10, "conditions": [], "values": [10, 20, 30, 40, 50], "ordered": true}}, {"class_name": "Float", "config": {"name": "learning_rate", "default": 0.0001, "conditions": [], "min_value": 0.0001, "max_value": 0.1, "step": null, "sampling": "log"}}, {"class_name": "Float", "config": {"name": "momentum", "default": 0.8, "conditions": [], "min_value": 0.8, "max_value": 0.99, "step": 0.01, "sampling": "linear"}}, {"class_name": "Float", "config": {"name": "decay", "default": 1e-06, "conditions": [], "min_value": 1e-06, "max_value": 0.001, "step": null, "sampling": "log"}}, {"class_name": "Choice", "config": {"name": "nesterov", "default": 1, "conditions": [], "values": [1, 0], "ordered": true}}], "values": {"l2_regularization": 0.0006692581046953691, "units": 20, "learning_rate": 0.00012971835121997928, "momentum": 0.8, "decay": 0.0008826233658334509, "nesterov": 1}}, "metrics": {"metrics": {"accuracy": {"direction": "max", "observations": [{"value": [0.8205128312110901], "step": 719}]}, "loss": {"direction": "min", "observations": [{"value": [0.736237496137619], "step": 719}]}, "val_accuracy": {"direction": "max", "observations": [{"value": [0.7645161151885986], "step": 719}]}, "val_loss": {"direction": "min", "observations": [{"value": [0.8842048346996307], "step": 719}]}}}, "score": 0.7645161151885986, "best_step": 719, "status": "COMPLETED", "message": null}
+{
+    "trial_id": "16",
+    "hyperparameters": {
+      "space": [
+        {
+          "class_name": "Float",
+          "config": {
+            "name": "l2_regularization",
+            "default": 1e-05,
+            "conditions": [],
+            "min_value": 1e-05,
+            "max_value": 0.01,
+            "step": null,
+            "sampling": "log"
+          }
+        },
+        {
+          "class_name": "Choice",
+          "config": {
+            "name": "units",
+            "default": 10,
+            "conditions": [],
+            "values": [10, 20, 30, 40, 50],
+            "ordered": true
+          }
+        },
+        {
+          "class_name": "Float",
+          "config": {
+            "name": "learning_rate",
+            "default": 0.0001,
+            "conditions": [],
+            "min_value": 0.0001,
+            "max_value": 0.1,
+            "step": null,
+            "sampling": "log"
+          }
+        },
+        {
+          "class_name": "Float",
+          "config": {
+            "name": "momentum",
+            "default": 0.8,
+            "conditions": [],
+            "min_value": 0.8,
+            "max_value": 0.99,
+            "step": 0.01,
+            "sampling": "linear"
+          }
+        },
+        {
+          "class_name": "Float",
+          "config": {
+            "name": "decay",
+            "default": 1e-06,
+            "conditions": [],
+            "min_value": 1e-06,
+            "max_value": 0.001,
+            "step": null,
+            "sampling": "log"
+          }
+        },
+        {
+          "class_name": "Choice",
+          "config": {
+            "name": "nesterov",
+            "default": 1,
+            "conditions": [],
+            "values": [1, 0],
+            "ordered": true
+          }
+        }
+      ],
+      "values": {
+        "l2_regularization": 0.0006692581046953691,
+        "units": 20,
+        "learning_rate": 0.00012971835121997928,
+        "momentum": 0.8,
+        "decay": 0.0008826233658334509,
+        "nesterov": 1
+      }
+    },
+    "metrics": {
+      "metrics": {
+        "accuracy": {
+          "direction": "max",
+          "observations": [
+            {
+              "value": [0.8205128312110901],
+              "step": 719
+            }
+          ]
+        },
+        "loss": {
+          "direction": "min",
+          "observations": [
+            {
+              "value": [0.736237496137619],
+              "step": 719
+            }
+          ]
+        },
+        "val_accuracy": {
+          "direction": "max",
+          "observations": [
+            {
+              "value": [0.7645161151885986],
+              "step": 719
+            }
+          ]
+        },
+        "val_loss": {
+          "direction": "min",
+          "observations": [
+            {
+              "value": [0.8842048346996307],
+              "step": 719
+            }
+          ]
+        }
+      }
+    },
+    "score": 0.7645161151885986,
+    "best_step": 719,
+    "status": "COMPLETED",
+    "message": null
+  }
